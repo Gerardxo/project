@@ -1,0 +1,337 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f8f8;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  padding: 5px;
+  background-color: #e0f0e0;
+  box-shadow: 1px 1px 30px #b0b0b0;
+  margin-bottom: 1%;
+}
+
+.titleHeader {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 2%;
+}
+
+.personalPictureContainer {
+  width: 20%;
+}
+
+.personalPicture {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.navHeader {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.navHeaderList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+  gap: 5%;
+}
+
+.navHeaderitem {
+  display: inline-block;
+}
+
+.navHeaderitem a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+}
+
+.navHeaderitem a:hover {
+  color: gray;
+}
+
+.welcomeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  background-color: #e0f0e0;
+  box-shadow: 1px 1px 30px #b0b0b0;
+  margin-bottom: 1%;
+  margin-bottom: 40px;
+}
+
+.personalDescriptionContainer {
+  width: 50%;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 30px;
+  font-weight: 600px;
+  margin-bottom: 1%;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.descriptionPictureContainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.descriptionPictureContainer img {
+  height: 300px;
+}
+
+footer {
+  width: 100%;
+  background-color: #c0c0c0;
+  text-align: center;
+  padding: 15px;
+}
+.socialLinks a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/*aboutme.html */
+
+.aboutmeContainer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 2%;
+  background-color: #f0f0f0;
+  box-shadow: 1px 1px 10px #b0b0b0;
+  margin-bottom: 3%;
+}
+
+.aboutmeDescription {
+  width: 70%;
+}
+
+.skillsContainer {
+  width: 90%;
+  margin: 0 auto 3% auto;
+  padding: 2%;
+  background-color: #e0f0e0;
+  box-shadow: 1px 1px 10px #b0b0b0;
+  margin-bottom: 3%;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  margin: 2%;
+  color: #222;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 1%;
+}
+
+.skillbox {
+  background-color: #f0f0f0;
+  padding: 4%;
+  box-shadow: 1px 1px 10px #b0b0b0;
+  margin-bottom: 3%;
+}
+
+.skillbox:hover {
+  scale: 103%;
+  background-color: aquamarine;
+}
+
+.skillstitle {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.skilltext {
+  text-align: center;
+  font-size: 16px;
+  color: #444;
+}
+
+.interestContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3%;
+  margin-left: 5%;
+}
+
+.interesText {
+  width: 50%;
+  padding: 15;
+}
+
+.interestImgcontainer {
+  width: 35%;
+  margin-right: 10%;
+}
+
+.interestImg {
+  width: 100%;
+}
+
+/* CSS para el portafolio.html */
+.portfoliocontainer {
+  width: 90%;
+  margin: 0 auto 3% auto;
+  padding: 2%;
+}
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  padding: 2%;
+}
+
+.projectCard {
+  background-color: #f8f8ff;
+  border-radius: 12px;
+  box-shadow: 0px 3px 15px #131313;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.projectCard:hover {
+  transform: translateY(-8px);
+}
+
+.projectImage {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(135deg, #e0f0e0, #f0f0f0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #666;
+  font-weight: 600;
+}
+.projectConten {
+  padding: 20px;
+}
+
+.projectTitel {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #222;
+}
+.projectDescription {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 15px;
+}
+.projectTechnologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.techTag {
+  background-color: #a5c4e3;
+  color: #090707;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.projectlink {
+  display: flex;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.projectlink {
+  display: flex;
+}
+
+.travelContainer {
+  width: 90%;
+  margin: 0 auto 3% auto;
+}
+
+.travelsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  padding: 2%;
+}
+
+.travelcard {
+  background-color: #f8f8ff;
+  border-radius: 12px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.travelcard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.travelImgContainer {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.travelImage {
+  width: 100%;
+  height: 100%;
+}
+
+.travelContent {
+  padding: 20px;
+  text-align: center;
+}
+
+.countryName {
+  font-size: 25px;
+  font-weight: 600;
+  color: #222;
+  margin: 0 0 10px 0;
+}
+
+.travelName {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
